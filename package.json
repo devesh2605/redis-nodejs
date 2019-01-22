@@ -1,0 +1,33 @@
+{
+  "name": "redis-nodejs",
+  "version": "1.0.0",
+  "description": "A sample nodejs app with redis",
+  "main": "src/index.js",
+  "scripts": {
+    "app": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devesh2605/redis-nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "redis",
+    "express"
+  ],
+  "author": "Devesh Vyas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devesh2605/redis-nodejs/issues"
+  },
+  "homepage": "https://github.com/devesh2605/redis-nodejs#readme",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "helmet": "^3.15.0",
+    "redis": "^2.8.0",
+    "winston": "^2.4.0"
+  }
+}
